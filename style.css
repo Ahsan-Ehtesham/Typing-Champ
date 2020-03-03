@@ -1,0 +1,83 @@
+#container{
+    width: auto;
+    height: 740px;
+    background-image: linear-gradient(#C0C0C0,#A9A9A9,#7e7e7e);
+}
+#firsthead{
+    font-family: nasalization;
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: #C0C0C0 ;
+    line-height: 100px;
+    cursor: pointer;
+}
+.row{
+    font-family: cursive;
+    text-align: center;
+    color: #035096;
+}
+#p1{
+    font-size: 35px;
+}
+#currentsen{
+    color: black;
+    font-size: 28px;
+    font-family: Futura Std Medium;
+}
+#seninput{
+    width: 1000px;
+    height: 35px;
+}
+#message{
+    font-size: 18px;
+}
+.rowx{
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+    color: #035096;
+}
+#time,#score{
+    color: black;
+}
+#instructions{
+    font-family: lato;
+    font-weight: bold;
+    color: white;
+    background-color: #035096;
+    border-radius: 50px;
+    border: 3px solid #035096;
+    margin: auto;
+    border-style: groove;
+    width: 30%;
+    text-align: center;
+    padding: 2px;
+}
+@keyframes example {
+    0%   {color: red;}
+    15%  {color: orange;}
+    30% {color:yellow;}
+    45%  {color: green;}
+    60% {color: blue;}
+    75%{color: indigo;}
+    100%{color:purple;}
+  }
+#credits{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#music{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px ;
+    margin-bottom: 15px;
+}
